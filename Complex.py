@@ -69,6 +69,15 @@ class Complex:
             imag = self.real * other.imag  + other.real * self.imag
             return Complex(real, imag)
 
+    def __eq__(self, other) -> bool:
+
+        if isinstance(other, (int, float)) and self.imag == 0 and self.real == other:
+            return True
+
+        elif isinstance(other, Complex) and self.imag == other.imag and self.real == other.real:
+            return True
+        return False
+
     def setimag(self, imag: int | float) -> None:
 
         self.__init__(self.real, imag)
