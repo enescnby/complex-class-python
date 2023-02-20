@@ -1,6 +1,6 @@
 # complex-class-python [![Owner](https://img.shields.io/badge/owner-enescnby-blue)](https://github.com/enescnby)
 
-[Github Repository](https://github.com/enescnby/rational-class-python)
+[Github Repository](https://github.com/enescnby/complex-class-python)
 
 This class is a basic form of complex numbers in Python.
 
